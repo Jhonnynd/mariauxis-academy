@@ -1,7 +1,7 @@
 import React from "react";
 
 const Vision = () => {
-  return <div></div>;
+  return <div>nomasd</div>;
 };
 
 export default Vision;
