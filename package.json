@@ -1,7 +1,7 @@
 {
   "name": "mariauxis-frontend",
   "private": true,
-"homepage": "https://jhonnynd.github.io/mariauxis-academy",
+  "homepage": "https://jhonnynd.github.io/mariauxis-academy",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
