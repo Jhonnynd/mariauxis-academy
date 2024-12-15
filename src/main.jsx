@@ -6,7 +6,7 @@ import ResponsiveAppBar from "./Components/ResponsiveAppBar.jsx";
 import { BrowserRouter } from "react-router-dom";
 
 createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/mariauxis-academy">
     <ResponsiveAppBar />
     <App />
   </BrowserRouter>

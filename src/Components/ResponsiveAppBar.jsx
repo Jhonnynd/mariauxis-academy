@@ -12,8 +12,9 @@ import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 
 const pages = [
-  { name: "Mision", path: "/mision" },
-  { name: "Vision", path: "/vision" },
+  { name: "Inicio", path: "/" },
+  { name: "Misión", path: "/mision" },
+  { name: "Visión", path: "/vision" },
   { name: "Clases", path: "/clases" },
 ];
 
