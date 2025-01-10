@@ -25,7 +25,6 @@ const Home = () => {
 
   return (
     <Box sx={{ position: "relative", overflow: "hidden" }}>
-      {/* Debugging Border */}
       <Box
         sx={{
           width: "100vw",
@@ -59,7 +58,6 @@ const Home = () => {
         </Slider>
       </Box>
 
-      {/* Overlay */}
       <Box
         sx={{
           position: "absolute",
@@ -71,8 +69,26 @@ const Home = () => {
           zIndex: 10,
         }}
       >
-        <Typography variant="h2">Mariauxis</Typography>
-        <Typography variant="h5">Academy</Typography>
+        <Typography
+          sx={{
+            fontSize: "7rem",
+            textShadow: "1px -2px 11px rgba(0,0,0,1)",
+            fontFamily: "serif",
+          }}
+          variant="h2"
+        >
+          Mariauxis
+        </Typography>
+        <Typography
+          sx={{
+            fontSize: "3rem",
+            textShadow: "1px -2px 11px rgba(0,0,0,1)",
+            fontFamily: "serif",
+          }}
+          variant="h5"
+        >
+          Academy
+        </Typography>
       </Box>
     </Box>
   );

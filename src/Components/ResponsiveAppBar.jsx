@@ -13,9 +13,7 @@ import MenuItem from "@mui/material/MenuItem";
 
 const pages = [
   { name: "Inicio", path: "/" },
-  { name: "Misión", path: "/mision" },
-  { name: "Visión", path: "/vision" },
-  { name: "Clases", path: "/clases" },
+  { name: "Información", path: "/Informacion" },
 ];
 
 function ResponsiveAppBar() {
@@ -38,7 +36,7 @@ function ResponsiveAppBar() {
   };
 
   return (
-    <AppBar position="static" sx={{}}>
+    <AppBar position="sticky" sx={{ color: "black" }}>
       <Container maxWidth="xl">
         <Toolbar sx={{ color: "black" }} disableGutters>
           <Box
@@ -91,7 +89,7 @@ function ResponsiveAppBar() {
               <Button
                 key={page.name}
                 onClick={() => handleNavigate(page.path)}
-                sx={{ my: 2, color: "white", display: "block" }}
+                sx={{ my: 2, color: "black", display: "block" }}
               >
                 {page.name}
               </Button>
